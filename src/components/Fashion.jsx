@@ -11,13 +11,13 @@ const Fashion = () => {
     {
       nom: "Man -shirt",
       price: 30,
-      img: "/src/assets/dress-shirt-img.png",
+      img: "/public/dress-shirt-img.png",
       alt: "dress-shirt-img",
     },
     {
       nom: "Woman Scart",
       price: 30,
-      img: "/src/assets/women-clothes-img.png",
+      img: "/public/women-clothes-img.png",
       alt: "women-clothes-img",
     },
   ];
