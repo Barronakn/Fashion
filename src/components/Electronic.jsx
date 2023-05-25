@@ -5,19 +5,19 @@ const Electronic = () => {
     {
       nom: "Laptop",
       price: 100,
-      img: "/src/assets/laptop-img.png",
+      img: "/public/laptop-img.png",
       alt: "laptop-img",
     },
     {
       nom: "Mobile",
       price: 100,
-      img: "/src/assets/mobile-img.png",
+      img: "/public/mobile-img.png",
       alt: "mobile-img",
     },
     {
       nom: "Computers",
       price: 100,
-      img: "/src/assets/computer-img.png",
+      img: "/public/computer-img.png",
       alt: "computer-img",
     },
   ];
