@@ -2,9 +2,9 @@ import { NavLink } from "react-router-dom";
 
 const Jewellery = () => {
   const datas = [
-    { nom: "Jumkas", price: 100, img: "/src/assets/jhumka-img.png" },
-    { nom: "Necklaces", price: 100, img: "/src/assets/neklesh-img.png" },
-    { nom: "Kangans", price: 100, img: "/src/assets/kangan-img.png" },
+    { nom: "Jumkas", price: 100, img: "/dist/assets/jhumka-img.png" },
+    { nom: "Necklaces", price: 100, img: "/dist/assets/neklesh-img.png" },
+    { nom: "Kangans", price: 100, img: "/dist/assets/kangan-img.png" },
   ];
   return (
     <div className="my-20">

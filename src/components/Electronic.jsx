@@ -2,9 +2,9 @@ import { NavLink } from "react-router-dom";
 
 const Electronic = () => {
   const datas = [
-    { nom: "Laptop", price: 100, img: "/src/assets/laptop-img.png" },
-    { nom: "Mobile", price: 100, img: "/src/assets/mobile-img.png" },
-    { nom: "Computers", price: 100, img: "/src/assets/computer-img.png" },
+    { nom: "Laptop", price: 100, img: "/dist/assets/laptop-img.png" },
+    { nom: "Mobile", price: 100, img: "/dist/assets/mobile-img.png" },
+    { nom: "Computers", price: 100, img: "/dist/assets/computer-img.png" },
   ];
   return (
     <div className="my-20">
