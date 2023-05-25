@@ -2,9 +2,9 @@ import { NavLink } from "react-router-dom";
 
 const Fashion = () => {
   const datas = [
-    { nom: "Man T -shirt", price: 30, img: "/src/assets/tshirt-img.png" },
-    { nom: "Man -shirt", price: 30, img: "/src/assets/dress-shirt-img.png" },
-    { nom: "Woman Scart", price: 30, img: "/src/assets/women-clothes-img.png" },
+    { nom: "Man T -shirt", price: 30, img: "/assets/tshirt-img.png" },
+    { nom: "Man -shirt", price: 30, img: "/assets/dress-shirt-img.png" },
+    { nom: "Woman Scart", price: 30, img: "/assets/women-clothes-img.png" },
   ];
   return (
     <div className="my-20">
