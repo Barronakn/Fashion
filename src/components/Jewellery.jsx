@@ -41,7 +41,7 @@ const Jewellery = () => {
                 </p>
               </div>
               <div className="flex justify-center items-center my-7">
-                <img className="w-80 h-80" src={data.img} alt={alt} />
+                <img className="w-80 h-80" src={data.img} alt={data.alt} />
               </div>
               <div className="links flex justify-between">
                 <NavLink
