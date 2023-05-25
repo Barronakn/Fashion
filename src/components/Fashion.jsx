@@ -5,7 +5,7 @@ const Fashion = () => {
     {
       nom: "Man T -shirt",
       price: 30,
-      img: "/src/assets/tshirt-img.png",
+      img: "/public/tshirt-img.png",
       alt: "tshirt-img",
     },
     {
