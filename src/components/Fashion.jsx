@@ -5,13 +5,20 @@ const Fashion = () => {
     {
       nom: "Man T -shirt",
       price: 30,
-      img: "/src/assets/Capture d’écran du 2023-05-25 22-27-44.png",
+      img: "/src/assets/tshirt-img.png",
+      alt: "tshirt-img",
     },
-    { nom: "Man -shirt", price: 30, img: "/src/assets/dress-shirt-img.png" },
+    {
+      nom: "Man -shirt",
+      price: 30,
+      img: "/src/assets/dress-shirt-img.png",
+      alt: "dress-shirt-img",
+    },
     {
       nom: "Woman Scart",
       price: 30,
       img: "/src/assets/women-clothes-img.png",
+      alt: "women-clothes-img",
     },
   ];
   return (
@@ -33,7 +40,7 @@ const Fashion = () => {
                 </p>
               </div>
               <div className="flex justify-center items-center mt-7 mb-2">
-                <img className="w-64 h-96" src={data.img} alt="" />
+                <img className="w-64 h-96" src={data.img} alt={alt} />
               </div>
               <div className="links flex justify-between">
                 <NavLink
