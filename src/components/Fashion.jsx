@@ -2,7 +2,11 @@ import { NavLink } from "react-router-dom";
 
 const Fashion = () => {
   const datas = [
-    { nom: "Man T -shirt", price: 30, img: "/src/assets/tshirt-img.png" },
+    {
+      nom: "Man T -shirt",
+      price: 30,
+      img: "/src/assets/Capture d’écran du 2023-05-25 22-27-44.png",
+    },
     { nom: "Man -shirt", price: 30, img: "/src/assets/dress-shirt-img.png" },
     {
       nom: "Woman Scart",
