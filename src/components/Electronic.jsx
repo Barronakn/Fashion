@@ -24,7 +24,7 @@ const Electronic = () => {
                 </p>
               </div>
               <div className="flex justify-center items-center my-6">
-                <img className="h-60" src={data.img} alt="" />
+                <img className="w-56 h-60" src={data.img} alt="" />
               </div>
               <div className="links flex justify-between">
                 <NavLink

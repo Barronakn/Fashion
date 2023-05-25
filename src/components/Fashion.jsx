@@ -25,7 +25,7 @@ const Fashion = () => {
                 </p>
               </div>
               <div className="flex justify-center items-center my-7">
-                <img src={data.img} alt="" />
+                <img className="w-64 h-96" src={data.img} alt="" />
               </div>
               <div className="links flex justify-between">
                 <NavLink
