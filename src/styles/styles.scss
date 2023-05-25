@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import "settings";
+@import "./pages/home.scss";
+@import "./components/electronic.scss";
+@import "./components/fashion.scss";
+@import "./components/jewellery.scss";
+@import "./components/navigation.scss";
+@import "./components/load.scss";
+@import "./components/footer.scss";

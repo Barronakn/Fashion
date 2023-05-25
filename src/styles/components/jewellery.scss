@@ -1,0 +1,44 @@
+.jewellery .h {
+  height: 500px;
+}
+
+@media screen and (max-width: 1024px) {
+  .jewellery {
+    flex-wrap: wrap;
+    gap: 25px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .jewellery {
+    flex-wrap: wrap;
+    gap: 15px;
+  }
+
+  .jewelleryCard img {
+    width: 150px;
+  }
+
+  .jewellery .h:nth-child(3) img {
+    height: 200px;
+    width: 130px;
+  }
+
+  .jewelleryCard {
+    width: 250px;
+  }
+
+  .jewellery .h {
+    height: 350px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .jewellery {
+    gap: 45px;
+  }
+
+  .jewelleryCard h3 {
+    font-size: 17px;
+  }
+}

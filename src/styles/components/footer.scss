@@ -1,0 +1,31 @@
+footer .bgc-none {
+  background: none;
+}
+
+@media screen and (max-width: 425px) {
+  .email {
+    width: 300px;
+  }
+  .email .uppercase {
+    margin-left: -70px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  footer .email {
+    width: 250px;
+  }
+
+  footer .email .bgc-none {
+    font-size: 16px;
+  }
+
+  footer .email .uppercase {
+    margin-left: -120px;
+    font-size: 14px;
+  }
+
+  footer p {
+    font-size: 14px;
+  }
+}

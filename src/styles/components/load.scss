@@ -1,0 +1,32 @@
+.load {
+  animation: rotation 3s infinite;
+  width: 125px;
+  height: 125px;
+  border-top: 15px solid #4f4646;
+  border-bottom: 15px solid #4f4646;
+  border-left: 15px solid #eb5a26;
+  border-right: 15px solid #eb5a26;
+  border-radius: 50%;
+  margin: 0 auto;
+}
+
+@keyframes rotation {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .load {
+    width: 75px;
+    height: 75px;
+    border-top: 10px solid #4f4646;
+    border-bottom: 10px solid #4f4646;
+    border-left: 10px solid #eb5a26;
+    border-right: 10px solid #eb5a26;
+  }
+}

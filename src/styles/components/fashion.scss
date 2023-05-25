@@ -1,0 +1,44 @@
+.fashion .h {
+  height: 520px;
+}
+
+@media screen and (max-width: 1024px) {
+  .fashion {
+    flex-wrap: wrap;
+    gap: 25px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .fashion {
+    flex-wrap: wrap;
+    gap: 15px;
+  }
+
+  .fashionCard img {
+    width: 150px;
+  }
+
+  .fashion .h:nth-child(3) img {
+    height: 200px;
+    width: 130px;
+  }
+
+  .fashionCard {
+    width: 250px;
+  }
+
+  .fashion .h {
+    height: 350px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .fashion {
+    gap: 45px;
+  }
+
+  .fashionCard h3 {
+    font-size: 17px;
+  }
+}

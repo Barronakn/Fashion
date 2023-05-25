@@ -1,0 +1,48 @@
+.electronic .h {
+  height: 400px;
+}
+
+@media screen and (max-width: 1024px) {
+  .electronic {
+    flex-wrap: wrap;
+    gap: 25px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .electronic {
+    flex-wrap: wrap;
+    gap: 15px;
+  }
+
+  .electronicCard img {
+    width: 150px;
+  }
+
+  .electronic .h img {
+    height: 200px;
+    width: 130px;
+  }
+
+  .electronicCard {
+    width: 250px;
+  }
+
+  .electronic .h {
+    height: 350px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .electronic {
+    gap: 45px;
+  }
+
+  .my-20 h1 {
+    font-size: 25px;
+  }
+
+  .electronicCard h3 {
+    font-size: 17px;
+  }
+}
