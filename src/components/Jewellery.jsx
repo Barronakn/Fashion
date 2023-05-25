@@ -5,19 +5,19 @@ const Jewellery = () => {
     {
       nom: "Jumkas",
       price: 100,
-      img: "/public/jhumka-img.png",
+      img: "/src/assets/jhumka-img.png",
       alt: "jhumka-img",
     },
     {
       nom: "Necklaces",
       price: 100,
-      img: "/public/neklesh-img.png",
+      img: "/src/assets/neklesh-img.png",
       alt: "neklesh-img",
     },
     {
       nom: "Kangans",
       price: 100,
-      img: "/public/kangan-img.png",
+      img: "/src/assets/kangan-img.png",
       alt: "kangan-img",
     },
   ];

@@ -5,19 +5,19 @@ const Fashion = () => {
     {
       nom: "Man T -shirt",
       price: 30,
-      img: "/public/tshirt-img.png",
+      img: "/src/assets/tshirt-img.png",
       alt: "tshirt-img",
     },
     {
       nom: "Man -shirt",
       price: 30,
-      img: "/public/dress-shirt-img.png",
+      img: "/src/assets/dress-shirt-img.png",
       alt: "dress-shirt-img",
     },
     {
       nom: "Woman Scart",
       price: 30,
-      img: "/public/women-clothes-img.png",
+      img: "/src/assets/women-clothes-img.png",
       alt: "women-clothes-img",
     },
   ];
@@ -41,6 +41,7 @@ const Fashion = () => {
               </div>
               <div className="flex justify-center items-center mt-7 mb-2">
                 <img className="w-64 h-96" src={data.img} alt={data.alt} />
+                <img className="w-64 h-96" src="/src/assets/tshirt-img.png" />
               </div>
               <div className="links flex justify-between">
                 <NavLink
