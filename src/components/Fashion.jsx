@@ -24,12 +24,12 @@ const Fashion = () => {
                   Price <span className="text-black">{"$ " + data.price}</span>
                 </p>
               </div>
-              <div className="flex justify-center items-center my-7">
+              <div className="flex justify-center items-center mt-7 mb-2">
                 <img className="w-64 h-96" src={data.img} alt="" />
               </div>
               <div className="links flex justify-between">
                 <NavLink
-                  onClick={() => onAddToCart({ name, price, quantity: 1 })}
+                  onClick={() => onAddToCart({ nom, price, quantity: 1 })}
                   className="text-orange-500 font-bold hover:text-black"
                   to="#"
                 >
