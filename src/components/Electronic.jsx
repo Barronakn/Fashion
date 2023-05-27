@@ -1,23 +1,26 @@
 import { NavLink } from "react-router-dom";
+import img1 from "/src/assets/laptop-img.png";
+import img2 from "/src/assets/mobile-img.png";
+import img3 from "/src/assets/computer-img.png";
 
 const Electronic = () => {
   const datas = [
     {
       nom: "Laptop",
       price: 100,
-      img: "/src/assets/laptop-img.png",
+      img: img1,
       alt: "laptop-img",
     },
     {
       nom: "Mobile",
       price: 100,
-      img: "/src/assets/mobile-img.png",
+      img: img2,
       alt: "mobile-img",
     },
     {
       nom: "Computers",
       price: 100,
-      img: "/src/assets/computer-img.png",
+      img: img3,
       alt: "computer-img",
     },
   ];
@@ -39,7 +42,12 @@ const Electronic = () => {
                 </p>
               </div>
               <div className="flex justify-center items-center my-6">
-                <img className="w-56 h-60" src={data.img} alt={data.alt} />
+                <img
+                  className="w-56 h-60"
+                  src={data.img}
+                  alt={data.alt}
+                  loading="lazy"
+                />
               </div>
               <div className="links flex justify-between">
                 <NavLink

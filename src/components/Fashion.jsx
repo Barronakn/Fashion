@@ -1,23 +1,26 @@
 import { NavLink } from "react-router-dom";
+import img1 from "/src/assets/tshirt-img.png";
+import img2 from "/src/assets/dress-shirt-img.png";
+import img3 from "/src/assets/women-clothes-img.png";
 
 const Fashion = () => {
   const datas = [
     {
       nom: "Man T -shirt",
       price: 30,
-      img: "/src/assets/tshirt-img.png",
+      img: img1,
       alt: "tshirt-img",
     },
     {
       nom: "Man -shirt",
       price: 30,
-      img: "/src/assets/dress-shirt-img.png",
+      img: img2,
       alt: "dress-shirt-img",
     },
     {
       nom: "Woman Scart",
       price: 30,
-      img: "/src/assets/women-clothes-img.png",
+      img: img3,
       alt: "women-clothes-img",
     },
   ];
@@ -40,7 +43,12 @@ const Fashion = () => {
                 </p>
               </div>
               <div className="flex justify-center items-center mt-7 mb-2">
-                <img className="w-64 h-96" src={data.img} alt={data.alt} />
+                <img
+                  className="w-64 h-96"
+                  src={data.img}
+                  alt={data.alt}
+                  loading="lazy"
+                />
               </div>
               <div className="links flex justify-between">
                 <NavLink

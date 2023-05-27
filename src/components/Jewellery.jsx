@@ -1,23 +1,26 @@
 import { NavLink } from "react-router-dom";
+import img1 from "/src/assets/jhumka-img.png";
+import img2 from "/src/assets/neklesh-img.png";
+import img3 from "/src/assets/kangan-img.png";
 
 const Jewellery = () => {
   const datas = [
     {
       nom: "Jumkas",
       price: 100,
-      img: "/src/assets/jhumka-img.png",
+      img: img1,
       alt: "jhumka-img",
     },
     {
       nom: "Necklaces",
       price: 100,
-      img: "/src/assets/neklesh-img.png",
+      img: img2,
       alt: "neklesh-img",
     },
     {
       nom: "Kangans",
       price: 100,
-      img: "/src/assets/kangan-img.png",
+      img: img3,
       alt: "kangan-img",
     },
   ];
@@ -41,7 +44,12 @@ const Jewellery = () => {
                 </p>
               </div>
               <div className="flex justify-center items-center my-7">
-                <img className="w-80 h-80" src={data.img} alt={data.alt} />
+                <img
+                  className="w-80 h-80"
+                  src={data.img}
+                  alt={data.alt}
+                  loading="lazy"
+                />
               </div>
               <div className="links flex justify-between">
                 <NavLink
